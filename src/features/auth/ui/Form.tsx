@@ -18,6 +18,7 @@ export function LoginForm() {
     <div className="w-full max-w-sm bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
       {/* Botón volver */}
       <button
+        onClick={() => router.push("/")}
         className="text-sm text-blue-600 hover:underline mb-4 flex items-center gap-1"
       >
         ← Volver al inicio

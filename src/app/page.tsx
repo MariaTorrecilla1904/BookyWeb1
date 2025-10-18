@@ -13,7 +13,7 @@ export default function LandingPage() {
       </p>
 
       <div className="flex gap-4">
-        <Button>Iniciar sesión</Button>
+        <Button onClick={() => router.push("/login")}>Iniciar sesión</Button>
         <Button variant="secondary">Registrarse</Button>
       </div>
     </main>
